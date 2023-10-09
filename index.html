@@ -21,48 +21,77 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="app.css"
-    />
     <title>Document</title>
   </head>
   <body>
-    <div class="brochure container text-center row">
-      <div
-        id="panels"
-        class="firstPanel col"
-      >
-        <h2>Personal</h2>
-        <ul>
-          <li>Custom domains</li>
-          <li>Sleeps after 30 mins of inactivity</li>
-        </ul>
-        <span>Free <a href="">Sign up</a></span>
-      </div>
-      <div
-        id="panels"
-        class="secondPanel col"
-      >
-        <h2>Small Team</h2>
-        <ul>
-          <li>Never sleeps</li>
-          <li>Multiple workers for more powerful apps</li>
-        </ul>
-        <span>$150 <a href="">Free trial</a></span>
-      </div>
-      <div
-        id="panels"
-        class="thirdPanel col"
-      >
-        <h2>Enterprise</h2>
-        <ul>
-          <li>Dedicated</li>
-          <li>Simple horizontal scalability</li>
-        </ul>
-        <span>$400 <a href="">Free trial</a></span>
+    <div class="container text-center py-5">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div
+            id=""
+            class="card mx-2 shadow-sm"
+          >
+            <h2 class="card-header">Personal</h2>
+            <img
+              class="img-fluid"
+              src="/icon1.png"
+              alt=""
+            />
+            <div class="card-body mb-5">
+              <h4>$0 <small class="text-muted">/mo</small></h4>
+              <ul class="mt-2 mb-3 list-unstyled">
+                <li>Custom domains</li>
+                <li>Sleeps after 30 mins of inactivity</li>
+              </ul>
+              <button class="btn btn-outline-primary btn-lg">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <!-- / -->
+        <div class="col mb-4">
+          <div
+            id=""
+            class="card mx-2 shadow-lg"
+          >
+            <h2 class="card-header">Small Team</h2>
+            <img
+              class="img-fluid"
+              src="/icon2.png"
+              alt=""
+            />
+            <div class="card-body mb-5">
+              <h4>$150 <small class="text-muted">/mo</small></h4>
+              <ul class="mt-2 mb-3 list-unstyled">
+                <li>Never sleeps</li>
+                <li>Multiple workers for more powerful apps</li>
+              </ul>
+              <button class="btn btn-outline-primary btn-lg">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <!-- / -->
+        <div class="col mb-4">
+          <div
+            id=""
+            class="card mx-2 shadow-sm"
+          >
+            <h2 class="card-header">Enterprise</h2>
+            <img
+              class="img-fluid"
+              src="/icon3.png"
+              alt=""
+            />
+            <div class="card-body mb-5">
+              <h4>$400 <small class="text-muted">/mo</small></h4>
+              <ul class="mt-2 mb-3 list-unstyled">
+                <li>Dedicated</li>
+                <li>Simple horizontal scalability</li>
+              </ul>
+              <button class="btn btn-outline-primary btn-lg">Sign up</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="app.js"></script>
   </body>
 </html>
